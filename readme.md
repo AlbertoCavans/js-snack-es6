@@ -28,4 +28,8 @@ La tipografia per stampare il tutto vuole che le mandiamo una lista di ospiti in
 
 Generiamo e stampiamo in console l'array di oggetti per i segnaposto.
 
-# Processo
+## Processo
+
+- Usare map per modificare l'array sostituendo alla string del nome di ogni vip, un object che contiene il numero del tavolo, il suo nome e il suo posto
+
+- Usare console.log per stampare in console il nuovo array
