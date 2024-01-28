@@ -43,3 +43,13 @@ let uppercaseStudents = students.map((students) => {
   return nameUppercase;
 });
 console.log(uppercaseStudents);
+
+/* STUDENTS WITH OVER70 GRADES */
+const studentsOver70 = students.filter((student) => student.grades > 70);
+console.log(studentsOver70);
+
+/* STUDENTS WITH OVER70 GRADES + OVER120 ID */
+const studentsOver70and120 = students.filter(
+  (student) => student.grades > 70 && student.id > 120
+);
+console.log(studentsOver70and120);
